@@ -1,0 +1,12 @@
+#simple guess game using python 
+userchoice=int(input("enter the number : "))
+target=86
+if(userchoice==target):
+    print("correct number guess won the game:", target)
+elif(userchoice<target):
+    print("the number is small than the given number")
+elif(userchoice>target):
+    print("the number is bigger than the given number")
+else:
+    
+    print("-----GAME OVER------")
